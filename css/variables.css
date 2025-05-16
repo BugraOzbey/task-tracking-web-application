@@ -1,0 +1,30 @@
+:root {
+    /* Ana Renkler */
+    --main-bg: #f2f2f2;
+    --primary: #0077cc;
+    --secondary: #f5a623;
+    --font: "Segoe UI", sans-serif;
+    
+    /* Buton Renkleri */
+    --button-bg: #28a745;
+    --button-hover-bg: #218838;
+    --button-delete-bg: #dc3545;
+    --button-hover-delete-bg: #c82333;
+    
+    /* Görev Renkleri */
+    --task-bg: #ffffff;
+    --task-border: #e0e0e0;
+    --task-hover: #f0f0f0;
+    
+    /* Öncelik Renkleri */
+    --priority-high: #ff4d4d;
+    --priority-medium: #ffc107;
+    --priority-low: #6c757d;
+    
+    /* Kategori Renkleri */
+    --category-work: #4a7cff;
+    --category-personal: #8e44ad;
+    --category-education: #27ae60;
+    --category-general: #e67e22;
+    --category-other: #7f8c8d;
+}
