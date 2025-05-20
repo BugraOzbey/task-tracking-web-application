@@ -9,12 +9,10 @@ const sortSelect = document.getElementById("sortSelect");
 const categoryFilter = document.getElementById("categoryFilter");
 const statusFilter = document.getElementById("statusFilter");
 
-// İstatistik DOM elemanları
 const totalTasksElem = document.getElementById("totalTasks");
 const completedTasksElem = document.getElementById("completedTasks");
 const pendingTasksElem = document.getElementById("pendingTasks");
 
-// Sayfa yüklendiğinde görevleri göster
 document.addEventListener("DOMContentLoaded", () => {
   taskObservable.notify(taskManager.getTasks());
 });

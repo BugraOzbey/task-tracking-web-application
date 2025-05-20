@@ -2,14 +2,12 @@ class TaskManager {
   constructor() {
     if (TaskManager.instance) return TaskManager.instance;
     
-    // LocalStorage'dan görevleri yükleme
     const savedTasks = localStorage.getItem('tasks');
     this.tasks = savedTasks ? JSON.parse(savedTasks) : [];
     
     TaskManager.instance = this;
   }
 
-  // Görevleri localStorage'a kaydetme yardımcı fonksiyonu
   _saveTasks() {
     localStorage.setItem('tasks', JSON.stringify(this.tasks));
   }
